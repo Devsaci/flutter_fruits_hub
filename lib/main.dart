@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_fruits_hub/features/splash/presentation/views/splash_view.dart';
 
 void main() {
   runApp(const FruitHub());
@@ -14,7 +15,7 @@ class FruitHub extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Placeholder(),
+      home: const SplashView(),
     );
   }
 }
