@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-
 void main() {
-  runApp(const MyWidget());
+  runApp(const FruitHub());
 }
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
+
+class FruitHub extends StatelessWidget {
+  const FruitHub({super.key});
 
   @override
   Widget build(BuildContext context) {
