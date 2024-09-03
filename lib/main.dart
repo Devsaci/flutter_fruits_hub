@@ -16,7 +16,6 @@ class FruitHub extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SplashView(),
       onGenerateRoute: onGenerateRoute,
       initialRoute: SplashView.routeName,
     );
