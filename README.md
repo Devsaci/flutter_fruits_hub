@@ -12,3 +12,5 @@ Vs Code Free Gems : <https://www.youtube.com/watch?v=sOgqctXopfo&t=43s>
 ## Getting Started
 
 7/ Create Splash View
+
+8/ On Generate Route
