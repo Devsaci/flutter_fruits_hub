@@ -18,6 +18,7 @@ class FruitHub extends StatelessWidget {
       ),
       home: const SplashView(),
       onGenerateRoute: onGenerateRoute,
+      initialRoute: SplashView.routeName,
     );
   }
 }
