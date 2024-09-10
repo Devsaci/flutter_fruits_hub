@@ -6,7 +6,7 @@ Route<dynamic> onGenerateRoute(RouteSettings settings) {
   switch (settings.name) {
     case 'splash':
       return MaterialPageRoute(builder: (_) => const SplashView());
-    case 'onbording':
+    case 'onBoardingView':
       return MaterialPageRoute(builder: (_) => const OnBoardingView());
     default:
       return MaterialPageRoute(builder: (_) => const Scaffold());
