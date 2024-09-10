@@ -6,6 +6,11 @@ class OnBoardingView extends StatelessWidget {
   static const String routeName = 'onBoardingView';
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Container(
+      color: Colors.yellowAccent,
+      width: 300,
+      height: 300,
+      child: const Center(child: Text('OnBoardingView')),
+    );
   }
 }

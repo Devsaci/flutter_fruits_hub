@@ -12,10 +12,22 @@ class SplashViewBody extends StatefulWidget {
 }
 
 class _SplashViewBodyState extends State<SplashViewBody> {
+  // @override
+  // void initState() {
+  //   excutNavigation(context);
+  //   super.initState();
+  // }
+
   @override
   void initState() {
-    excutNavigation(context);
     super.initState();
+    executeNavigation();
+  }
+
+  void executeNavigation() {
+    Future.delayed(const Duration(seconds: 3), () {
+      Navigator.of(context).pushReplacementNamed(OnBoardingView.routeName);
+    });
   }
 
   @override
@@ -40,8 +52,8 @@ class _SplashViewBodyState extends State<SplashViewBody> {
   }
 }
 
-void excutNavigation(BuildContext context) {
-  Future.delayed(const Duration(seconds: 3), () {
-    Navigator.pushReplacementNamed(context, OnBoardingView.routeName);
-  });
-}
+// void excutNavigation(BuildContext context) {
+//   Future.delayed(const Duration(seconds: 3), () {
+//     Navigator.pushReplacementNamed(context, OnBoardingView.routeName);
+//   });
+// }
