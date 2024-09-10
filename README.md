@@ -165,3 +165,5 @@ Cette solution résout le problème de l'identifiant non défini pour `context` 
 N'oubliez pas d'importer correctement votre `OnBoardingView` et tout autre widget ou package nécessaire.
 
 Voulez-vous que je vous explique plus en détail certaines parties de cette solution ?
+
+11/ Steps to build On Boarding Feature
