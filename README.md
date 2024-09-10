@@ -18,3 +18,5 @@ Vs Code Free Gems : <https://www.youtube.com/watch?v=sOgqctXopfo&t=43s>
 9/ Splash View ui done
 svg_flutter pub dev
 Flutter Assets Gen Extension
+
+10/ Splash View Logic Done
