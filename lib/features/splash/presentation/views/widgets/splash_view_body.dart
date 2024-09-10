@@ -13,7 +13,7 @@ class SplashViewBody extends StatefulWidget {
 class _SplashViewBodyState extends State<SplashViewBody> {
   @override
   void initState() {
-    // TODO: implement initState
+    excutNavigation();
     super.initState();
   }
 
@@ -38,3 +38,5 @@ class _SplashViewBodyState extends State<SplashViewBody> {
     );
   }
 }
+
+void excutNavigation() {}
