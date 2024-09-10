@@ -39,4 +39,8 @@ class _SplashViewBodyState extends State<SplashViewBody> {
   }
 }
 
-void excutNavigation() {}
+void excutNavigation() {
+  Future.delayed(const Duration(seconds: 3), () {
+    //Navigator.pushReplacementNamed(context, '/home');
+  });
+}
