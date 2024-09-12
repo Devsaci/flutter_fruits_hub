@@ -169,3 +169,5 @@ Voulez-vous que je vous explique plus en détail certaines parties de cette solu
 11/ Steps to build On Boarding Feature
 
 12/ Create on boarding view
+
+13/ Page View item part one
