@@ -167,3 +167,5 @@ N'oubliez pas d'importer correctement votre `OnBoardingView` et tout autre widge
 Voulez-vous que je vous explique plus en détail certaines parties de cette solution ?
 
 11/ Steps to build On Boarding Feature
+
+12/ Create on boarding view
