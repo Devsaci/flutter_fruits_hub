@@ -6,10 +6,12 @@ class PageviewItem extends StatelessWidget {
     required this.image,
     required this.background,
     required this.subtitle,
+    required this.title,
   });
 
   final String image, background;
   final String subtitle;
+  final String title;
 
   @override
   Widget build(BuildContext context) {
