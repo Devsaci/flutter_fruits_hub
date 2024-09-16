@@ -11,7 +11,7 @@ class PageviewItem extends StatelessWidget {
 
   final String image, background;
   final String subtitle;
-  final String title;
+  final Widget title;
 
   @override
   Widget build(BuildContext context) {
