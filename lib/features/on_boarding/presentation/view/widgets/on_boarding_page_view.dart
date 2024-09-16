@@ -11,7 +11,7 @@ class OnBoardingPageview extends StatelessWidget {
       children: const [
         PageviewItem(
           image: Assets.imagesPageViewItem1Image,
-          background: 'background',
+          background: Assets.imagesPageViewItem1BackgroundImage,
           subtitle: 'subtitle',
           title: 'title',
         )
