@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_fruits_hub/features/on_boarding/presentation/view/widgets/page_view_item.dart';
 
 class OnBoardingPageview extends StatelessWidget {
   const OnBoardingPageview({super.key});
@@ -7,15 +8,12 @@ class OnBoardingPageview extends StatelessWidget {
   Widget build(BuildContext context) {
     return PageView(
       children: const [
-        Center(
-          child: Text('Page 1'),
-        ),
-        Center(
-          child: Text('Page 2'),
-        ),
-        Center(
-          child: Text('Page 3'),
-        ),
+        PageviewItem(
+          image: 'image',
+          background: 'background',
+          subtitle: 'subtitle',
+          title: 'title',
+        )
       ],
     );
   }
