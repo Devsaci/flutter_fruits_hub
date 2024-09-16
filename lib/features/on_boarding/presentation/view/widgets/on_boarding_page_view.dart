@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_fruits_hub/core/utils/app_images.dart';
 import 'package:flutter_fruits_hub/features/on_boarding/presentation/view/widgets/page_view_item.dart';
 
 class OnBoardingPageview extends StatelessWidget {
@@ -9,7 +10,7 @@ class OnBoardingPageview extends StatelessWidget {
     return PageView(
       children: const [
         PageviewItem(
-          image: 'image',
+          image: Assets.imagesPageViewItem1Image,
           background: 'background',
           subtitle: 'subtitle',
           title: 'title',
