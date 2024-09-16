@@ -5,9 +5,11 @@ class PageviewItem extends StatelessWidget {
     super.key,
     required this.image,
     required this.background,
+    required this.subtitle,
   });
 
   final String image, background;
+  final String subtitle;
 
   @override
   Widget build(BuildContext context) {
