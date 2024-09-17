@@ -171,3 +171,5 @@ Voulez-vous que je vous explique plus en détail certaines parties de cette solu
 12/ Create on boarding view
 
 13/ Page View item part one
+
+14/ Page View item part two
