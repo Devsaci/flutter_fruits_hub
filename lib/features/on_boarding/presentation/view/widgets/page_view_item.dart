@@ -29,6 +29,10 @@ class PageviewItem extends StatelessWidget {
                   fit: BoxFit.fill,
                 ),
               ),
+              SvgPicture.asset(
+                image,
+                fit: BoxFit.fill,
+              ),
             ],
           ),
         ),
