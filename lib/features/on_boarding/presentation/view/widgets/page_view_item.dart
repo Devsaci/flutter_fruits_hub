@@ -18,7 +18,11 @@ class PageviewItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Stack(children: [SvgPicture.asset(backgroundImage)]),
+        Stack(
+          children: [
+            SvgPicture.asset(backgroundImage),
+          ],
+        ),
       ],
     );
   }
