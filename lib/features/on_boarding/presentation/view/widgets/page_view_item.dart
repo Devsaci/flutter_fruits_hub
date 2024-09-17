@@ -18,10 +18,19 @@ class PageviewItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Stack(
-          children: [
-            SvgPicture.asset(backgroundImage),
-          ],
+        SizedBox(
+          height: MediaQuery.of(context).size.height * 0.5,
+          width: MediaQuery.of(context).size.width,
+          child: Stack(
+            children: [
+              Positioned.fill(
+                child: SvgPicture.asset(
+                  backgroundImage,
+                  fit: BoxFit.fill,
+                ),
+              ),
+            ],
+          ),
         ),
       ],
     );
