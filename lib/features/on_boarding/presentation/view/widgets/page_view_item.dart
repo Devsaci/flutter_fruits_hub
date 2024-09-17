@@ -37,6 +37,7 @@ class PageviewItem extends StatelessWidget {
                   image,
                 ),
               ),
+              const Text('تخط')
             ],
           ),
         ),
