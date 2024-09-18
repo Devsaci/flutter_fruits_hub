@@ -9,7 +9,9 @@ class OnBoardingViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Column(
       children: [
-        Expanded(child: OnBoardingPageview()),
+        Expanded(
+          child: OnBoardingPageview(),
+        ),
       ],
     );
   }
