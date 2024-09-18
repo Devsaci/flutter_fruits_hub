@@ -29,7 +29,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   flutter_localizations:
-        sdk: flutter
+    sdk: flutter
   cupertino_icons: ^1.0.6
   flutter:
     sdk: flutter
@@ -40,7 +40,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   # svg_flutter: ^0.0.1
-
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter packages.
@@ -86,4 +85,6 @@ flutter_assets:
   assets_path: assets/images/
   output_path: lib/core/utils
   filename: app_images.dart
-  field_prefix:
+  field_prefix: null
+flutter_intl:
+  enabled: true
