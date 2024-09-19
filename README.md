@@ -23,6 +23,8 @@ Flutter Assets Gen Extension
 
 Le problème ici est que vous essayez d'utiliser context dans la fonction excutNavigation(), mais cette variable n'est pas définie dans le contexte de cette fonction. Pour corriger cela, vous avez deux options:
 
+### Copilot microsoft
+
 Option 1: Passer context en argument:
 
 Modifier la fonction:
@@ -111,7 +113,7 @@ content_copy
 Use code with caution.
 Dart
 
-## solution Claude sonnet
+#### solution Claude sonnet
 
 Je comprends que vous rencontrez une erreur avec le code Flutter concernant un identifiant non défini pour `context`. Voici une solution proposée pour résoudre ce problème :
 
