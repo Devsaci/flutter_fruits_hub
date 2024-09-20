@@ -42,6 +42,9 @@ class PageviewItem extends StatelessWidget {
                 child: Text('تخط'),
               ),
               title,
+              const SizedBox(
+                height: 24,
+              ),
               Text(
                 subtitle,
                 textAlign: TextAlign.center,
