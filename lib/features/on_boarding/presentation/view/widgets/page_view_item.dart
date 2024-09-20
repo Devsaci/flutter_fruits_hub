@@ -42,7 +42,10 @@ class PageviewItem extends StatelessWidget {
                 child: Text('تخط'),
               ),
               title,
-              Text(subtitle)
+              Text(
+                subtitle,
+                textAlign: TextAlign.center,
+              )
             ],
           ),
         ),
