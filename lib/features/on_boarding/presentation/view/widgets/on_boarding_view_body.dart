@@ -14,14 +14,14 @@ class OnBoardingViewBody extends StatelessWidget {
           child: OnBoardingPageview(),
         ),
         DotsIndicator(
-          dotsCount: 3,
+          dotsCount: 2,
           decorator: const DotsDecorator(
             color: Color(0xFFC40303),
             activeColor: Color(0xFF06A450),
-            size: Size(8, 8),
-            activeSize: Size(8, 8),
+            size: Size(5, 8),
+            activeSize: Size(10, 8),
             activeShape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.all(Radius.circular(5)),
+              borderRadius: BorderRadius.all(Radius.circular(10)),
             ),
           ),
         ),
