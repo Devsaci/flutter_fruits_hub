@@ -178,4 +178,6 @@ Voulez-vous que je vous explique plus en détail certaines parties de cette solu
 
 Flutter Intl plugin VsCode
 
-15_ Page View item part three
+15 - Page View item part three
+
+16 - Dots Indicator
