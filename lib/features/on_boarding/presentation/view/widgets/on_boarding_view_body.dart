@@ -17,8 +17,8 @@ class OnBoardingViewBody extends StatelessWidget {
         DotsIndicator(
           dotsCount: 2,
           decorator: const DotsDecorator(
-            activeColor: AppColors.primaryColor,
-          ),
+              activeColor: AppColors.primaryColor1,
+              color: AppColors.primaryColor2),
         ),
       ],
     );
