@@ -41,7 +41,7 @@ class PageviewItem extends StatelessWidget {
                 padding: EdgeInsets.all(16.0),
                 child: Text('تخط'),
               ),
-              title,
+              //title,
               const SizedBox(
                 height: 24,
               ),
