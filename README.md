@@ -181,3 +181,5 @@ Flutter Intl plugin VsCode
 15 - Page View item part three
 
 16 - Dots Indicator
+
+dots_indicator 3.0.0 package
